@@ -1,0 +1,18 @@
+
+let title = document.querySelector('.item-page__main-title');
+title.textContent = "son of superman";
+
+let cover = document.querySelector('.product-image__image--single');
+console.log(cover);
+cover.src = 'http://via.placeholder.com/350x150';
+
+let navTitle = ['These','french','fries','are','the','most','delicious','in','the','world'];
+let chaptersNav = document.querySelectorAll('.top-nav__list-itme');
+chaptersNav.map((nav,index) => navTitle.textContent
+
+let icon1 = document.querySelector('.hamburger-menu__button');
+
+console.log(icon1);
+
+icon1.src = "http://via.placeholder.com/350x150";
+
