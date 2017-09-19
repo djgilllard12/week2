@@ -8,7 +8,8 @@ cover.src = 'http://via.placeholder.com/350x150';
 
 let navTitle = ['These','french','fries','are','the','most','delicious','in','the','world'];
 let chaptersNav = document.querySelectorAll('.top-nav__list-itme');
-chaptersNav.map((nav,index) => navTitle.textContent
+chaptersNav =  array.from(document.querySelectorAll('[class^=top-nav__list-link]'));
+chaptersNav.map{(navTitle,idx) => navTitle.textContent = navTitle[idx]};
 
 let icon1 = document.querySelector('.hamburger-menu__button');
 
